@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# RewriteRule for listing places
+RewriteRule ^places*$  place_api_list.php [NC,L]
+
+# RewriteRule for fetching details of a specific place
+RewriteRule ^places/([0-9a-zA-Z_-]*)$ place_details_api.php?place_id=$1 [NC,L]
+RewriteRule ^reviews/([0-9a-zA-Z_-]*)$ review_details_api.php?review_id=$1 [NC,L]

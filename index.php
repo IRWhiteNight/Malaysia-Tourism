@@ -465,7 +465,7 @@
     window.initMap = initMap;
 </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXPggs2ckwyrCZDxwA-tyktbihU1BgSUM&callback=initMap&v=weekly"
+    <script src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap&v=weekly"
         defer></script>
 </body>
 <?php include 'footer.php'; ?>

@@ -322,6 +322,6 @@
         // Google Maps JavaScript API functions (initMap, calculateAndDisplayRoute, etc.) should be placed here
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXPggs2ckwyrCZDxwA-tyktbihU1BgSUM&callback=initMap&v=weekly" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap&v=weekly" defer></script>
 </body>
 </html>
